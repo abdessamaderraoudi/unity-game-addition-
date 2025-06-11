@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LuckySpin_T_0: -9090151539824870019
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

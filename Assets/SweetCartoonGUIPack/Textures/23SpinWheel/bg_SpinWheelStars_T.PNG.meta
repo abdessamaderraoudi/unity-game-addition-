@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_SpinWheelStars_T_0: 389332072588826312
+      bg_SpinWheelStars_T_1: 452229261986338163
+      bg_SpinWheelStars_T_2: -3809435773904996500
+      bg_SpinWheelStars_T_3: -7834069109951701209
+      bg_SpinWheelStars_T_4: 1177720207309343107
+      bg_SpinWheelStars_T_5: 4403350341791912298
+      bg_SpinWheelStars_T_6: -1982780764463678527
+      bg_SpinWheelStars_T_7: 2465022312067212135
+      bg_SpinWheelStars_T_8: 5617734409649700694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

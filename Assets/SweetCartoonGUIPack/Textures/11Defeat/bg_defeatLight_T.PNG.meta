@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_defeatLight_T_0: -750642094754639367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

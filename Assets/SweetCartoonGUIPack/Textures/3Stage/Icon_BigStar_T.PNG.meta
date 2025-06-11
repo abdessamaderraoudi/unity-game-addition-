@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Icon_BigStar_T_0: 3954987186429831270
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

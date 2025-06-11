@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LevelUPStars_T_0: -7863077226548557794
+      LevelUPStars_T_1: -3369375627696947654
+      LevelUPStars_T_2: -1808896419503555270
+      LevelUPStars_T_3: -1453674509554299167
+      LevelUPStars_T_4: -6702606872818386713
+      LevelUPStars_T_5: -721474706217245038
+      LevelUPStars_T_6: -6426070977992498328
+      LevelUPStars_T_7: 4020095439513077697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

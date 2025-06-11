@@ -1,29 +1,94 @@
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class DigitSlot : MonoBehaviour, IDropHandler
 {
-    public Text slotText;
+    public GameObject digitSlotText;
+    private TMP_Text slotText;
+    private AdditionGameManager gameManager;
+    public int slotIndex;
+    public TMP_Text SlotText => slotText;
 
-    void Start()
+    void Awake()
     {
+        if (digitSlotText == null)
+        {
+            Debug.LogWarning("DigitSlot: digitSlotText GameObject is not assigned!", this);
+            digitSlotText = gameObject; // Fallback to self if not assigned
+        }
+
+        slotText = digitSlotText.GetComponent<TMP_Text>();
         if (slotText == null)
-            Debug.LogWarning("DigitSlot: slotText is not assigned!", this);
-        else
+        {
+            Debug.LogWarning("DigitSlot: digitSlotText does not have a TMP_Text component!", this);
+            slotText = digitSlotText.AddComponent<TMP_Text>(); // Add if missing
             slotText.text = "";
+            slotText.fontSize = 50;
+            slotText.alignment = TextAlignmentOptions.Center;
+        }
+        else
+        {
+            slotText.text = "";
+        }
+
+        gameManager = FindFirstObjectByType<AdditionGameManager>();
+        if (gameManager == null)
+            Debug.LogError("DigitSlot: GameManager not found in scene!", this);
     }
 
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("Drop detected on: " + gameObject.name);
+        Debug.Log($"🎯 Drop detected on slot {slotIndex} ({gameObject.name})");
 
         string symbol = GhostButtonController.Instance.CurrentSymbol;
         if (!string.IsNullOrEmpty(symbol))
         {
-            slotText.text = symbol;
-            Debug.Log("Symbol Set: " + symbol);
+            if (slotText == null)
+            {
+                Debug.LogError("DigitSlot: slotText is not assigned, cannot set symbol!", this);
+                return;
+            }
+
+            // Vérifier que c'est un chiffre valide
+            if (int.TryParse(symbol, out int digitValue))
+            {
+                slotText.text = symbol;
+                Debug.Log($"✅ Symbol '{symbol}' set on slot {slotIndex}");
+
+                if (gameManager != null)
+                {
+                    gameManager.UpdateCarry(slotIndex, digitValue);
+                }
+                else
+                {
+                    Debug.LogError("DigitSlot: gameManager is null, cannot update carry!", this);
+                }
+            }
+            else
+            {
+                Debug.LogWarning($"DigitSlot: Invalid symbol '{symbol}' - not a digit!");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("DigitSlot: No symbol available from GhostButtonController!");
         }
     }
 
+    // Optional: Clear slot if needed
+    public void ClearSlot()
+    {
+        if (slotText != null)
+        {
+            slotText.text = "";
+            Debug.Log($"🧹 Slot {slotIndex} cleared");
+
+            // Notifier le GameManager que le slot a été vidé
+            if (gameManager != null)
+            {
+                gameManager.UpdateCarry(slotIndex, -1); // -1 indique un slot vide
+            }
+        }
+    }
 }

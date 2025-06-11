@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Icon_MushroomHouse_T_0: 4489468628805497497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

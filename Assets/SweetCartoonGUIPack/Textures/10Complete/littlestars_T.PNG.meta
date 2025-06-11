@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      littlestars_T_0: -8427374777111085799
+      littlestars_T_1: -884921381300486686
+      littlestars_T_10: -6333671153210524503
+      littlestars_T_11: -4741436217986272388
+      littlestars_T_2: -8281758244054403872
+      littlestars_T_3: 7049368258382368889
+      littlestars_T_4: 1332383010592045867
+      littlestars_T_5: 7817206836571529009
+      littlestars_T_6: -2058475369652608060
+      littlestars_T_7: 4525580371585358140
+      littlestars_T_8: -3745654239328128227
+      littlestars_T_9: -123821268208491458
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

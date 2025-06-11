@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      radio2_normal_T_0: -7849511021090472966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

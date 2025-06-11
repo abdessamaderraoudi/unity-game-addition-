@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Icon_LittleStarts_T_0: 5964261148762361221
+      Icon_LittleStarts_T_1: 3881700814444063801
+      Icon_LittleStarts_T_10: 5455051434861354535
+      Icon_LittleStarts_T_11: 7265144478094166941
+      Icon_LittleStarts_T_2: 4632779404232311339
+      Icon_LittleStarts_T_3: 4398608660691537115
+      Icon_LittleStarts_T_4: -8420431962472710685
+      Icon_LittleStarts_T_5: -3398776563647837291
+      Icon_LittleStarts_T_6: 5803797316322943592
+      Icon_LittleStarts_T_7: -7591821604439320730
+      Icon_LittleStarts_T_8: -212103166706373683
+      Icon_LittleStarts_T_9: -5700607637709008841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

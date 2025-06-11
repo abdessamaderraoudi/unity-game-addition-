@@ -244,7 +244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60158a349828eb149b2c67fd4bae9c61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotText: {fileID: 8679107641142837088}
+  digitSlotText: {fileID: 0}
+  slotIndex: 0
 --- !u!1 &7256199923117221589
 GameObject:
   m_ObjectHideFlags: 0

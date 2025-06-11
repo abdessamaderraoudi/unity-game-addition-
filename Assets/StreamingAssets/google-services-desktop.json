@@ -1,52 +1,27 @@
 {
   "project_info": {
-    "project_number": "463535809892",
-    "firebase_url": "https://mathoria-10949-default-rtdb.firebaseio.com",
-    "project_id": "mathoria-10949",
-    "storage_bucket": "mathoria-10949.firebasestorage.app"
+    "project_number": "850118236442",
+    "firebase_url": "https://gamegroupe1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gamegroupe1",
+    "storage_bucket": "gamegroupe1.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:463535809892:android:125538906c9fc3806c8671",
+        "mobilesdk_app_id": "1:850118236442:android:b9d93d5aa3fe0149fc34a3",
         "android_client_info": {
-          "package_name": "com.rokku.mathoria"
+          "package_name": "com.shayma.monjeueducatif"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "463535809892-82g9dqobap58l7ejpbu0r9fqhkc8lh7l.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.rokku.mathoria",
-            "certificate_hash": "bc32de3a426f1904e1a11c879e5d6cace0a1531a"
-          }
-        },
-        {
-          "client_id": "463535809892-f6e3r2ufgrj7am3r5ssgovcq1n6uk1b6.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDPG1hVtasAmizcL0kJqbbd8G59_0ZRN0M"
+          "current_key": "AIzaSyDyiXzcctPKuPn178PHyNDOR9ksJXoof64"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "463535809892-f6e3r2ufgrj7am3r5ssgovcq1n6uk1b6.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "463535809892-8c948ej3q5v4ajofbhtaim7ju98tm72p.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.rokku.mathoria"
-              }
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

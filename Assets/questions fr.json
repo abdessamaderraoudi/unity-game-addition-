@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "question": "Ali a 3 oranges, et son père lui en a donné 2. Combien d'oranges a-t-il maintenant ?",
+      "choices": ["4", "5", "6", "7"],
+      "correctIndex": 1,
+      "grade": "1"
+    },
+    {
+      "question": "Nour possède 1 poupée, et sa mère lui en a acheté 3 autres. Combien de poupées a-t-elle ?",
+      "choices": ["3", "4", "5", "6"],
+      "correctIndex": 1,
+      "grade": "1"
+    },
+    {
+      "question": "Khaled a 2 voitures jouets, et son oncle lui en a offert 1. Combien de voitures a-t-il ?",
+      "choices": ["2", "3", "4", "5"],
+      "correctIndex": 1,
+      "grade": "1"
+    },
+    {
+      "question": "Huda a cueilli 4 fleurs, puis en a cueilli 2 autres. Combien de fleurs a-t-elle ?",
+      "choices": ["5", "6", "7", "8"],
+      "correctIndex": 1,
+      "grade": "1"
+    },
+    {
+      "question": "Rami possède 1 chat, et sa chatte a eu 3 chatons. Combien de chats a-t-il maintenant ?",
+      "choices": ["3", "4", "5", "6"],
+      "correctIndex": 1,
+      "grade": "1"
+    },
+    {
+      "question": "Mohammed a acheté 7 livres, et le professeur lui en a donné 3 supplémentaires. Combien de livres a-t-il ?",
+      "choices": ["9", "10", "11", "12"],
+      "correctIndex": 1,
+      "grade": "2"
+    },
+    {
+      "question": "Zeinab possède 9 bracelets, et son amie lui en a offert 5. Combien de bracelets a-t-elle ?",
+      "choices": ["13", "14", "15", "16"],
+      "correctIndex": 1,
+      "grade": "2"
+    },
+    {
+      "question": "Tarek a 12 bonbons, et en a acheté 6 autres. Combien de bonbons a-t-il ?",
+      "choices": ["17", "18", "19", "20"],
+      "correctIndex": 1,
+      "grade": "2"
+    },
+    {
+      "question": "Youssef a ramassé 8 coquillages sur la plage, puis en a trouvé 7 autres. Combien de coquillages a-t-il ?",
+      "choices": ["14", "15", "16", "17"],
+      "correctIndex": 1,
+      "grade": "2"
+    },
+    {
+      "question": "Iman a 11 crayons de couleur, et sa sœur lui en a donné 4. Combien de crayons a-t-elle ?",
+      "choices": ["14", "15", "16", "17"],
+      "correctIndex": 1,
+      "grade": "2"
+    },
+    {
+      "question": "Une école a acheté 24 ballons de football, puis en a acheté 18 autres. Combien de ballons a-t-elle ?",
+      "choices": ["40", "41", "42", "43"],
+      "correctIndex": 2,
+      "grade": "3"
+    },
+    {
+      "question": "Un magasin possède 35 jouets, et il a reçu 27 nouveaux jouets. Combien de jouets a-t-il maintenant ?",
+      "choices": ["60", "61", "62", "63"],
+      "correctIndex": 2,
+      "grade": "3"
+    },
+    {
+      "question": "Faten a collectionné 29 timbres, et son grand-père lui en a donné 16. Combien de timbres a-t-elle ?",
+      "choices": ["44", "45", "46", "47"],
+      "correctIndex": 1,
+      "grade": "3"
+    },
+    {
+      "question": "Une librairie a 48 magazines, et en a acheté 34 supplémentaires. Combien de magazines a-t-elle ?",
+      "choices": ["80", "81", "82", "83"],
+      "correctIndex": 2,
+      "grade": "3"
+    },
+    {
+      "question": "Un zoo a 37 oiseaux, et 15 nouveaux oiseaux y sont nés. Combien d'oiseaux y a-t-il ?",
+      "choices": ["51", "52", "53", "54"],
+      "correctIndex": 1,
+      "grade": "3"
+    },
+    {
+      "question": "Ammar a acheté 45,5 mètres de tissu, puis a acheté 28,3 mètres supplémentaires. Combien de mètres a-t-il ?",
+      "choices": ["73,8 mètres", "74,8 mètres", "72,8 mètres", "75,8 mètres"],
+      "correctIndex": 0,
+      "grade": "4"
+    },
+    {
+      "question": "Sawsan possède 67,25 dirhams, et son père lui a donné 24,75 dirhams. Combien de dirhams a-t-elle ?",
+      "choices": ["91 dirhams", "92 dirhams", "90 dirhams", "93 dirhams"],
+      "correctIndex": 1,
+      "grade": "4"
+    },
+    {
+      "question": "Une caisse pèse 38,6 kg, et on y a ajouté 19,4 kg de fruits. Quel est le poids total ?",
+      "choices": ["57 kg", "58 kg", "59 kg", "56 kg"],
+      "correctIndex": 1,
+      "grade": "4"
+    },
+    {
+      "question": "Une voiture a parcouru 126,8 km le matin, et 89,2 km le soir. Combien de kilomètres a-t-elle parcourus ?",
+      "choices": ["215 km", "216 km", "217 km", "214 km"],
+      "correctIndex": 1,
+      "grade": "4"
+    },
+    {
+      "question": "Une boulangerie a 54,7 kg de farine, et en a acheté 37,3 kg supplémentaires. Combien de kilogrammes a-t-elle ?",
+      "choices": ["91 kg", "92 kg", "93 kg", "90 kg"],
+      "correctIndex": 1,
+      "grade": "4"
+    },
+    {
+      "question": "Un réservoir contient 247,85 litres d'eau, et on y a ajouté 168,15 litres. Combien de litres contient-il ?",
+      "choices": ["415 litres", "416 litres", "417 litres", "414 litres"],
+      "correctIndex": 1,
+      "grade": "5"
+    },
+    {
+      "question": "Une entreprise a acheté 359,6 kg de matériaux, et a reçu 294,4 kg supplémentaires. Quel est le poids total ?",
+      "choices": ["653 kg", "654 kg", "655 kg", "652 kg"],
+      "correctIndex": 1,
+      "grade": "5"
+    },
+    {
+      "question": "Une planche de bois mesure 128,75 cm, et on y a ajouté une pièce de 96,25 cm. Quelle est la longueur totale ?",
+      "choices": ["224 cm", "225 cm", "226 cm", "223 cm"],
+      "correctIndex": 1,
+      "grade": "5"
+    },
+    {
+      "question": "Une banque possède 485,3 mille dirhams, et on y a déposé 279,7 mille dirhams supplémentaires. Quel est le montant total ?",
+      "choices": ["764 mille", "765 mille", "766 mille", "763 mille"],
+      "correctIndex": 1,
+      "grade": "5"
+    },
+    {
+      "question": "Un champ a une superficie de 567,45 mètres carrés, et on y a ajouté un champ de 348,55 mètres carrés. Quelle est la superficie totale ?",
+      "choices": ["915 m²", "916 m²", "917 m²", "914 m²"],
+      "correctIndex": 1,
+      "grade": "5"
+    },
+    {
+      "question": "Une boîte contient 3,5587 kg d'or, et on y a ajouté 2,4413 kg. Quel est le poids total ?",
+      "choices": ["5,9 kg", "6 kg", "6,1 kg", "5,8 kg"],
+      "correctIndex": 1,
+      "grade": "6"
+    },
+    {
+      "question": "Un avion a parcouru 1456,782 km, puis a volé 987,218 km supplémentaires. Quelle est la distance totale ?",
+      "choices": ["2443 km", "2444 km", "2445 km", "2442 km"],
+      "correctIndex": 1,
+      "grade": "6"
+    },
+    {
+      "question": "Une usine possède 2847,365 tonnes de matériaux, et a reçu 1698,635 tonnes supplémentaires. Quel est le poids total ?",
+      "choices": ["4545 tonnes", "4546 tonnes", "4547 tonnes", "4544 tonnes"],
+      "correctIndex": 1,
+      "grade": "6"
+    },
+    {
+      "question": "Une ferme a une superficie de 756,8394 hectares, et on y a ajouté 549,1606 hectares. Quelle est la superficie totale ?",
+      "choices": ["1305 hectares", "1306 hectares", "1307 hectares", "1304 hectares"],
+      "correctIndex": 1,
+      "grade": "6"
+    },
+    {
+      "question": "Un réservoir contient 4567,8925 litres de carburant, et on y a ajouté 2389,1075 litres. Combien y a-t-il de litres au total ?",
+      "choices": ["6956 litres", "6957 litres", "6958 litres", "6955 litres"],
+      "correctIndex": 1,
+      "grade": "6"
+    }
+  ]
+}

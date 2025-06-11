@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Btn_Freecoins_normal_T_0: 2755055702459686061
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

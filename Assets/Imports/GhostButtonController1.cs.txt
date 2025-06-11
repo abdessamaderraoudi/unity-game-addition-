@@ -1,0 +1,51 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class GhostButtonController : MonoBehaviour
+{
+    public static GhostButtonController Instance;
+
+   // public Text text; // À retirer car nous allons utiliser une image
+    public Image ghostImage; // Ajout pour afficher l'image
+    private RectTransform rect;
+    private CanvasGroup canvasGroup;
+
+    public string CurrentSymbol { get; private set; } = "";
+    private Sprite[] digitSprites; // Référence aux sprites des chiffres
+
+    void Awake()
+    {
+        Instance = this;
+        rect = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
+        if (ghostImage == null) ghostImage = GetComponent<Image>();
+        // Récupérer les sprites depuis KeyboardWidget
+        KeyboardWidget keyboardWidget = FindFirstObjectByType<KeyboardWidget>();
+        if (keyboardWidget != null)
+            digitSprites = keyboardWidget.digitSprites;
+        Hide();
+    }
+
+    public void Show(string symbol, Vector2 screenPosition)
+    {
+        CurrentSymbol = symbol;
+        if (digitSprites != null && int.TryParse(symbol, out int symbolIndex))
+        {
+            ghostImage.sprite = digitSprites[symbolIndex];
+        }
+        canvasGroup.alpha = 1f;
+        rect.position = screenPosition;
+    }
+
+    public void Move(Vector2 screenPosition)
+    {
+        rect.position = screenPosition;
+    }
+
+    public void Hide()
+    {
+        canvasGroup.alpha = 0f;
+        CurrentSymbol = "";
+        ghostImage.sprite = null;
+    }
+}

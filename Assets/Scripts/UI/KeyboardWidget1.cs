@@ -1,0 +1,53 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class KeyboardWidget1 : MonoBehaviour
+{
+    public GridLayoutGroup keyboardGrid;
+    public GameObject buttonPrefab;
+    public string[] symbols;
+    public Sprite[] digitSprites; // Tableau pour les images des chiffres
+
+    void Start()
+    {
+        PopulateKeyboard();
+    }
+
+    void PopulateKeyboard()
+    {
+        if (keyboardGrid == null || buttonPrefab == null) return;
+
+        // Définir les symboles comme étant uniquement 0 à 9
+        symbols = new string[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+
+        // Vérifier que digitSprites est assigné et a la bonne taille
+        if (digitSprites == null || digitSprites.Length != symbols.Length)
+        {
+            Debug.LogError("KeyboardWidget: digitSprites doit contenir exactement " + symbols.Length + " sprites !");
+            return;
+        }
+
+        foreach (string symbol in symbols)
+        {
+            // Instancier un nouveau bouton
+            GameObject newButton = Instantiate(buttonPrefab, keyboardGrid.transform);
+            KeyboardButton1 keyboardButton = newButton.GetComponent<KeyboardButton1>();
+            if (keyboardButton != null)
+            {
+                keyboardButton.symbol = symbol; // Définir le symbole
+                // Assigner l'image correspondante
+                Image buttonImage = newButton.GetComponent<Image>();
+                if (buttonImage != null)
+                {
+                    int symbolIndex = int.Parse(symbol);
+                    buttonImage.sprite = digitSprites[symbolIndex];
+                    Debug.Log("Assigné sprite " + digitSprites[symbolIndex].name + " à " + symbol); // Débogage
+                }
+                else
+                {
+                    Debug.LogError("Aucun composant Image trouvé sur le bouton pour " + symbol);
+                }
+            }
+        }
+    }
+}

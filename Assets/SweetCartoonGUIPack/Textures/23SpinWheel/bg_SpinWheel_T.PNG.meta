@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_SpinWheel_T_0: -4919669843278008842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

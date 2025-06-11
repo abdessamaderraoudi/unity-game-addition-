@@ -148,3 +148,4 @@ MonoBehaviour:
   keyboardGrid: {fileID: 2768598654527967096}
   buttonPrefab: {fileID: 4325755385054399044, guid: 4d5331b4cc7963f4493dcded6d92a9b2, type: 3}
   symbols: []
+  digitSprites: []

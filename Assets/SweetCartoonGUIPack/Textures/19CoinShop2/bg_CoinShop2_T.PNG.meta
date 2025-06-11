@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_CoinShop2_T_0: -1525226289739983828
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
